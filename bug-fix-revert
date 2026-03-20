@@ -1,0 +1,17 @@
+$ curl -X GET https://api.github.com/repos/crazycam19/github-final-project/pulls
+
+[
+  {
+    "url": "https://api.github.com/repos/crazycam19/github-final-project/pulls/1",
+    "id": 1,
+    "title": "Bug fix typo",
+    "state": "closed",
+    "head": {
+      "label": "crazycam19:bug-fix-typo",
+      "ref": "bug-fix-typo"
+    },
+    "base": {
+      "ref": "main"
+    }
+  }
+]
